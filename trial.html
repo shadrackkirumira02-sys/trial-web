@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Manager - Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">📋 TaskTracker</div>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="tasks.html">My Tasks</a></li>
+            <li><a href="add-task.html">+ Add Task</a></li>
+            <li><a href="completed.html">Completed</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>Welcome back, Student! 👋</h1>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <h3>Pending Tasks</h3>
+                <p class="stat-number">3</p>
+            </div>
+            <div class="stat-card">
+                <h3>Completed</h3>
+                <p class="stat-number">5</p>
+            </div>
+            <div class="stat-card">
+                <h3>This Week</h3>
+                <p class="stat-number">2</p>
+            </div>
+        </div>
+
+        <div class="upcoming">
+            <h2>📌 Upcoming Deadlines</h2>
+            <ul class="task-list">
+                <li class="task-item high">
+                    <span>📖 Web Programming Assignment</span>
+                    <span class="due">Due: May 20, 2026</span>
+                    <button class="complete-btn">✓ Complete</button>
+                </li>
+                <li class="task-item medium">
+                    <span>📊 Math Group Project</span>
+                    <span class="due">Due: May 22, 2026</span>
+                    <button class="complete-btn">✓ Complete</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Student Task Manager | Cavendish University Uganda</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
